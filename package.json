@@ -1,0 +1,19 @@
+{
+  "name": "github-actions-ci-demo",
+  "version": "1.0.0",
+  "description": "GitHub Actions CI Demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^30.3.0",
+    "supertest": "^7.2.2"
+  }
+}
